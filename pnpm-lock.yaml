@@ -26,6 +26,9 @@ importers:
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
+      hono:
+        specifier: ^4.6.3
+        version: 4.6.3
       next:
         specifier: 15.0.0-canary.56
         version: 15.0.0-canary.56(react-dom@19.0.0-rc-f38c22b244-20240704(react@19.0.0-rc-f38c22b244-20240704))(react@19.0.0-rc-f38c22b244-20240704)
@@ -1068,6 +1071,10 @@ packages:
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
+
+  hono@4.6.3:
+    resolution: {integrity: sha512-0LeEuBNFeSHGqZ9sNVVgZjB1V5fmhkBSB0hZrpqStSMLOWgfLy0dHOvrjbJh0H2khsjet6rbHfWTHY0kpYThKQ==}
+    engines: {node: '>=16.9.0'}
 
   https-proxy-agent@5.0.1:
     resolution: {integrity: sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==}
@@ -3209,6 +3216,8 @@ snapshots:
   hasown@2.0.2:
     dependencies:
       function-bind: 1.1.2
+
+  hono@4.6.3: {}
 
   https-proxy-agent@5.0.1:
     dependencies:
